@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/iblue/bluedots/chapterview" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/iblue/bluedots/chapterview/FragmentOne.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/background.png" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable-hdpi/circular.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_chapters.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_one.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_three.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_two.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values-v11/vpi__attrs.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values-v11/vpi__colors.xml" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/values-v11/vpi__defaults.xml" charset="windows-1252" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

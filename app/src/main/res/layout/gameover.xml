@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:background="@drawable/gameover" android:fitsSystemWindows="true"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="end"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:textColor="#ffffff"
+        android:id="@+id/complete"
+        android:text="Level Clear !!!"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="end"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:textColor="#ffffff"
+        android:id="@+id/complete1"
+        android:layout_below="@+id/complete"
+        android:text="You gote"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/topdots"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_below="@+id/complete1"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true">
+        <ImageView android:src="@drawable/bdotglow32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ic1"
+            android:layout_gravity="center"
+            />
+        <ImageView android:src="@drawable/bdotglow32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ic2"
+            android:layout_gravity="center"
+            />
+        <ImageView android:src="@drawable/bdotglow32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ic3"
+            android:layout_gravity="center"
+            />
+        <ImageView android:src="@drawable/bdotglow32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ic4"
+            android:layout_gravity="center"
+            />
+        <ImageView android:src="@drawable/bdotglow32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ic5"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blue Dots"
+        android:id="@+id/app_name"
+        android:layout_below="@+id/topdots"
+        android:textColor="#0000ff"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        android:typeface="serif" />
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="end"
+        android:layout_margin="15dp"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:textColor="#ffffff"
+        android:id="@+id/scorecard"
+        android:layout_below="@+id/app_name"
+        android:text="Score "
+        />
+    <Button
+        android:id="@+id/again"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:text="Try Again"
+        android:layout_gravity="center_horizontal"
+        android:padding="8dp"
+        android:background="@drawable/lightblue"
+        android:layout_below="@+id/scorecard"  />
+
+    <Button
+        android:id="@+id/next"
+        android:text="Next Level"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@drawable/lightblue"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/scorecard"  />
+
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:background="@drawable/gameover" android:fitsSystemWindows="true"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blue Dots"
+        android:id="@+id/app_name"
+        android:layout_below="@+id/ic"
+        android:textColor="#0000ff"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"
+        android:typeface="serif" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="end"
+        android:layout_marginBottom="15dp"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:textColor="#ffffff"
+        android:id="@+id/complete"
+        android:layout_below="@+id/app_name"
+        android:text="Exit the game" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:text="Confirm"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:background="@drawable/lightblue"
+        android:layout_below="@+id/complete"  />
+
+    <Button
+        android:id="@+id/cancel"
+        android:text="Cancel"
+        android:typeface="serif"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lightblue"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/complete"  />
+
+
+</RelativeLayout>

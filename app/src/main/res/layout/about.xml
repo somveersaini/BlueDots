@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#2179ff"
+    android:fitsSystemWindows="true"
+    android:gravity="center_vertical"
+    android:layout_centerVertical="true"
+    tools:context="com.iblue.bluedots.MainActivity">
+
+    <ImageView android:src="@drawable/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/ic"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blue Dots"
+        android:id="@+id/app_name"
+        android:layout_below="@+id/ic"
+        android:textColor="#0000ff"
+        android:textStyle="italic"
+        android:textSize="40sp"
+        android:layout_margin="16dp"
+
+        android:gravity="center_horizontal"
+        android:typeface="serif" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bluedots"
+        android:gravity="center_horizontal"
+        android:typeface="serif"
+        android:layout_below="@+id/app_name"
+        android:id="@+id/description"
+        android:layout_marginBottom="15dp"/>
+
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/a1"
+        android:gravity="center_horizontal"
+        android:textColor="#0000ff"
+        android:textSize="20sp"
+        android:layout_below="@+id/description"
+        android:id="@+id/blue"
+        android:typeface="serif"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blue"
+        android:gravity="center_horizontal"
+        android:typeface="serif"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/blue"
+        android:id="@+id/love"
+        android:layout_marginBottom="20dp"/>
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/a3"
+        android:gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:layout_below="@+id/love"
+        android:id="@+id/develop"
+        android:typeface="serif"
+        android:layout_marginBottom="6dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bcard"
+        android:layout_below="@+id/develop">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/developer"
+            android:textColor="#0000ff"
+            android:textSize="20sp"
+            android:id="@+id/developer"
+
+            android:gravity="center_horizontal"
+            android:typeface="serif"
+            android:textStyle="italic"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="6dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:typeface="serif"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:text="@string/email"
+            android:id="@+id/email"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@+id/developer"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:typeface="serif"
+            android:layout_centerHorizontal="true"
+            android:text="+91 8090150580"
+            android:id="@+id/cont"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@+id/email"/>
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:textColor="#ffffff"
+        android:id="@+id/underline"
+        android:typeface="serif"
+        android:layout_below="@+id/bcard"
+        android:text="Life is short.\nSmile while you still have teeth."/>
+
+</RelativeLayout>

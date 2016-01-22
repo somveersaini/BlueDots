@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/desc"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bluelable"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_marginBottom="40dp"
+        >
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_gravity="center_horizontal"
+
+            android:textSize="24sp"
+            android:typeface="serif"
+            android:text="Chapter Two" />
+        <TextView
+            android:id="@+id/textv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_gravity="center_horizontal"
+
+            android:textSize="24sp"
+            android:typeface="serif"
+            android:textStyle="italic"
+            android:text=" Blue Hearts\n" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="4dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16sp"
+            android:text="Untangle Blue Hearts in Plane"
+            android:typeface="serif"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            android:textSize="11sp"
+            android:text="Slide from right for Random Blues"
+            android:typeface="serif"/>
+
+    </LinearLayout>
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridView"
+        android:layout_below="@+id/desc"
+        android:numColumns="6"
+        android:verticalSpacing="6dp"
+        android:horizontalSpacing="6dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

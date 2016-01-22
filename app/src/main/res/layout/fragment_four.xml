@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/desc"
+        android:layout_centerHorizontal="true"
+
+        android:background="@drawable/bluelable"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:layout_marginBottom="60dp"
+        >
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_gravity="center_horizontal"
+            android:textSize="24sp"
+            android:typeface="serif"
+            android:text="Chapter Four" />
+        <TextView
+            android:id="@+id/textv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:layout_gravity="center_horizontal"
+
+            android:textSize="24sp"
+            android:typeface="serif"
+            android:textStyle="italic"
+            android:text=" Generate\n" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            android:textSize="16sp"
+            android:text="Generate Random Graphs "
+            android:typeface="serif"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            android:textSize="11sp"
+            android:text="Slide from left for Random Blues"
+            android:typeface="serif"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/circle"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Blue Circles"
+        android:layout_marginBottom="6dp"
+        android:background="@drawable/lightblue"
+
+        android:onClick="buttonHandler"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/desc"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/heart"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Blue Hearts"
+        android:background="@drawable/lightblue"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginBottom="6dp"
+        android:onClick="buttonHandler"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/circle"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:id="@+id/random"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="Random"
+        android:background="@drawable/lightblue"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:onClick="buttonHandler"
+        android:layout_marginBottom="2dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/heart"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

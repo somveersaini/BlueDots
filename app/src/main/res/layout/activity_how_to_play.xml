@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2179ff"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context="com.iblue.BluePuzzle.HowToPlay">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Blue Dots"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:id="@+id/howa"
+        android:gravity="center_horizontal"
+        android:typeface="serif"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How To Play"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:id="@+id/howb"
+        android:layout_below="@+id/howa"
+        android:layout_marginBottom="20dp"
+        android:textSize="15sp"
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/steps"
+        android:gravity="center"
+        android:typeface="serif"
+        android:layout_below="@id/howb"
+        android:text="@string/how"
+        android:layout_marginBottom="10dp"
+
+        />
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/notes" android:typeface="serif"
+    android:layout_below="@id/steps"
+    android:text="@string/notes"
+
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mm"
+        android:gravity="center"
+        android:textStyle="italic"
+        android:typeface="serif"
+        android:layout_below="@id/notes"
+        android:text="\n**************\nLots of Love\nTeam Blue\n\nImperfection is beautiful"
+
+        />
+
+</RelativeLayout>

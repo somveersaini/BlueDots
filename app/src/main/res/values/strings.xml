@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Blue Dots</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- about activity -->
+    <string name="a1">Blue</string>
+    <string name="a2">Blue Dots</string>
+    <string name="a3">Developed By</string>
+    <string name="developer">Somveer Saini</string>
+    <string name="blue">Coz everyone follow their first love of life.</string>
+    <string name="bluedots">Planar graph puzzle
+        \nSource -> github.com/somveersaini/BlueDots
+    </string>
+    <string name="email">somveersaini@yahoo.com\ngithub.com/somveersaini</string>
+
+    <!-- howtoplay activity -->
+    <string name="how">This is a Planer Graph puzzle.\n You have to move the vertices such that no edges of the graph intersect.
+        \n\n
+        Gameplay
+        \nIn this Game, Your goal is to remove the cuts by moving the blue dots one by one.
+        \n\n
+        Enjoy!!!!
+    </string>
+    <string name="title_activity_how_to_play">HowToPlay</string>
+    <string name="notes">\nNotes \n*Choose from 4 beautiful themes in settings.
+        \n*Slide to access different chapters.
+        \n*There is a special section for Generating real time graph puzzles in Chapter Four.
+
+    </string>
+    <string name="copyright">&#169; BlueDroid</string>
+    <string name="start">\nThankYou\nfor Downloading\nBlue Puzzle\n\n"</string>
+    <string name="htht">Please go through \"How To\"</string>
+    <string name="underline">\nAsk and it will be given to you;\nseek and you will find it;\nknock and the door will be opened for you - M7:7</string>
+    <string name="title_activity_solution">Solution</string>
+    <string name="a">Solution</string>
+
+
+</resources>

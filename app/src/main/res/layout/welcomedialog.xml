@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/lightblue"
+    >
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:padding="8dp"
+            android:layout_height="wrap_content"
+            android:text="Thank You\nFor Downloading"
+            android:id="@+id/thanku"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:gravity="center"
+            />
+
+    <ImageView android:src="@drawable/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/ic"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:padding="2dp"
+        android:layout_height="wrap_content"
+        android:text="Blue Dots"
+        android:id="@+id/ht1"
+        android:textSize="25sp"
+        android:textColor="#2222ff"
+        android:typeface="serif"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:padding="2dp"
+        android:layout_height="wrap_content"
+        android:text="Blue Dots"
+        android:id="@+id/ht"
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:typeface="serif"
+        android:textStyle="italic"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:padding="2dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/lt"
+        android:text=""
+        android:textColor="#0000ff"
+        android:typeface="serif"
+        android:gravity="center"
+        />
+
+</LinearLayout>
